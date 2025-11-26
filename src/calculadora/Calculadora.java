@@ -18,7 +18,7 @@ package calculadora;
  * <p>Após a refatoração, os métodos desta classe são <strong>métodos puros</strong>,
  * sem efeitos colaterais, permitindo maior legibilidade e facilitando testes unitários.</p>
  *
- * @author Seu Nome
+ * @author Gabriel Alberto de Oliveira
  * @version 1.0
  */
 
@@ -37,7 +37,11 @@ public class Calculadora {
 
     /**
      *
-     * Preencher com o devido comentário
+     * Divide dois numeros interios 
+     * 
+     * @param a primeiro operando
+     * @param b segundo operando
+     * @return o resultado da subitração de {@code a} e {@code b}
      */
     public int subtrair(int a, int b) {
         return a - b;
@@ -45,7 +49,11 @@ public class Calculadora {
 
     /**
      *
-     * Preencher com o devido comentário
+     * Multiplica dois numeros inteiros
+     * 
+     * @param a primeiro operando
+     * @param b segundo operando
+     * @return o resultado da multiplicação de {@code a} e {@code b}
      */
     public int multiplicar(int a, int b) {
         return a * b;
@@ -53,7 +61,11 @@ public class Calculadora {
 
     /**
      *
-     * Preencher com o devido comentário
+     * Divide dois numeros inteiros
+     * 
+     * @param a primeiro operando
+     * @param b segundo operando
+     * @return o resultado da divisão de {@code a } e {@code b}
      */
     public int dividir(int a, int b) {
         if (b == 0) {
